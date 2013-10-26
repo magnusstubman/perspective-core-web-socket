@@ -1,0 +1,35 @@
+{
+  "name": "perspective-core-web-socket",
+  "version": "0.0.1",
+  "description": "",
+  "bugs": {
+    "url": "http://github.com/perspective/perspective-core-web-socket/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/perspective/perspective-core-web-socket.git"
+  },
+  "contributors":[
+    "Hans Magnus Inderberg <hinderberg@gmail.com> (http://hinderberg.no/)",
+    "Mads Mobœk <> ()"
+  ],
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "bin": {},
+  "scripts": {
+    "test": "make test"
+  },
+  "dependencies": {
+    "websocket": "~1.0.8",
+    "perspective-core-web-socket-helper": "*",
+    "perspective-core-server": "*",
+    "underscore": "~1.4.4",
+    "q": "~0.9.7"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "should": "*",
+    "sinon": "*",
+    "sandboxed-module": "*"
+  }
+}
