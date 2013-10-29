@@ -1,2 +1,3 @@
-
-module.exports = require('./lib/server');
+module.exports = {
+  createServer: require('./lib/server')
+};
